@@ -1,3 +1,8 @@
 return {
-  { "xiyaowong/transparent.nvim" },
+  {
+    "xiyaowong/transparent.nvim",
+    opts = {
+      background_colour = "#000000",
+    },
+  },
 }
