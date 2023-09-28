@@ -3,3 +3,4 @@
 -- Add any additional options here
 -- vim.opt.winbar = "%=%m %f"
 vim.opt.wrap = true
+vim.o.shell = "/usr/bin/zsh"
