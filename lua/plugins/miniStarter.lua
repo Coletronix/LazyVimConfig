@@ -1,5 +1,6 @@
 return {
   "echasnovski/mini.starter",
+  enabled = false,
   version = false, -- wait till new 0.7.0 release to put it back on semver
   event = "VimEnter",
   opts = function()
@@ -25,8 +26,8 @@ return {
         new_section("Find file",    "Telescope find_files", "Telescope"),
         new_section("Recent files", "Telescope oldfiles",   "Telescope"),
         new_section("Grep text",    "Telescope live_grep",  "Telescope"),
-        new_section("Projects",     "lua require('telescope').extensions.projects.projects{}",  "Telescope"),
-        new_section("init.lua",     "e $MYVIMRC",           "Config"),
+        new_section("Projects",     "Telescope projects",   "Telescope"),
+        new_section("Config",       "e $MYVIMRC",           "Config"),
         new_section("Lazy",         "Lazy",                 "Config"),
         new_section("New file",     "ene | startinsert",    "Built-in"),
         new_section("Quit",         "qa",                   "Built-in"),

@@ -4,3 +4,6 @@
 -- vim.opt.winbar = "%=%m %f"
 vim.opt.wrap = true
 vim.o.shell = "/usr/bin/zsh"
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+vim.o.expandtab = true

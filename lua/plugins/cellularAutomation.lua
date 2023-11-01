@@ -1,1 +1,1 @@
--- return { "Eandrju/cellular-automation.nvim" }
+return { "eandrju/cellular-automaton.nvim", enabled = true }

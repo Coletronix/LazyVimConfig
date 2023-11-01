@@ -10,3 +10,6 @@ vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 
 vim.keymap.set({ "n", "v" }, "<leader>y", '"*y')
 vim.keymap.set({ "n", "v" }, "<leader>p", '"*p')
+
+-- fun stuff
+vim.keymap.set("n", "<leader>fm", "<cmd>CellularAutomaton make_it_rain<CR>")
