@@ -1,0 +1,36 @@
+    {
+        "key": "ctrl+d",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "interval": 30,
+            "sequence": [
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "16j"
+                },
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "zz"
+                }
+            ]
+        },
+        "when": "editorTextFocus && neovim.init && neovim.mode != 'insert'"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "interval": 30,
+            "sequence": [
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "16k"
+                },
+                {
+                    "command": "vscode-neovim.send",
+                    "args": "zz"
+                }
+            ]
+        },
+        "when": "editorTextFocus && neovim.init && neovim.mode != 'insert'"
+    },
